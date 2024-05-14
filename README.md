@@ -13,7 +13,7 @@ We used OpenAlex to consolidate citations. If a citation contained a title, we s
 
 If a match was not found using OpenAlex, we used Crossref (which can be used via Grobid). Grobid extracts and consolidates citations using Crossref. We sent a reasonably small number of citations to Crossref. This is important because Crossref is unsuitable for processing large numbers of citations. If Crossref was able to consolidate the citation (_i.e.,_ a DOI was found), we sent the DOI to OpenAlex to retrieve the meta-data for the citation.
 
-The pipeline diagram is below.
+The pipeline diagram is below. Note that meta-data refers to a citation having information for: author, year, journal, and at least one of volume number, issue number, first or last page number.
 
 ![Image Alt text](/images/flowchart_method_v3_crop.jpg)
 
