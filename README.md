@@ -21,3 +21,10 @@ The pipeline diagram is below. Note that meta-data refers to a citation having i
 Below is a flowchart showing our workflow. The flowchart shows what code files we ran and in what order.
 
 ![Image Alt text](/images/ml05_git.jpg)
+
+## Data
+Our data is available on figshare.
+
+Office-action citation data. https://doi.org/10.6084/m9.figshare.25874452.v1 
+
+Classification data. https://doi.org/10.6084/m9.figshare.25874464.v1 
